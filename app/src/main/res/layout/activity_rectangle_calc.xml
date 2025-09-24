@@ -8,7 +8,7 @@
     tools:context=".RectangleCalc">
 
     <EditText
-        android:id="@+id/RectangleInputOne"
+        android:id="@+id/RectangleInputLength"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="205dp"
@@ -19,7 +19,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/RectangleInputTwo"
+        android:id="@+id/RectangleInputWidth"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
@@ -27,7 +27,7 @@
         android:ems="10"
         android:inputType="numberDecimal"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/RectangleInputOne" />
+        app:layout_constraintTop_toBottomOf="@+id/RectangleInputLength" />
 
     <TextView
         android:id="@+id/textView8"
@@ -64,7 +64,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/textView15"
+        android:id="@+id/RectangleOutput"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="150dp"

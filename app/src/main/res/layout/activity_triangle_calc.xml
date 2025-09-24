@@ -30,7 +30,7 @@
         app:layout_constraintTop_toBottomOf="@+id/TriangleInputSideOne" />
 
     <TextView
-        android:id="@+id/textView13"
+        android:id="@+id/TriangleOutput"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="304dp"
