@@ -81,6 +81,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
     }
+    //test
     public void setOnClickListenerRectangle()
     {
         rectangleButton.setOnClickListener(new View.OnClickListener() {
